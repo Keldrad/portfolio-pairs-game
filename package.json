@@ -1,0 +1,25 @@
+{
+  "name": "part_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "devDependencies": {
+    "cypress": "^12.10.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-formatter-gitlab": "^2.1.0",
+    "eslint-plugin-cypress": "^2.13.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.7"
+  },
+  "scripts": {
+    "lint": "eslint ./",
+    "lint:report": "eslint --format gitlab ./",
+    "lint:fix": "eslint ./ --fix"
+  },
+  "keywords": [],
+  "author": "Pavel Kozlov",
+  "license": "ISC"
+}
